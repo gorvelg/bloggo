@@ -15,8 +15,10 @@
             <a href="?p=register">Inscription</a>
         </div>
     </nav>
-    <div class="container">
-        <?= $content; ?>
+    <div class="wrapper">
+        <div class="article">
+            <?= $content; ?>
+        </div>
     </div>
     
 </body>
