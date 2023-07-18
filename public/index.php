@@ -15,11 +15,11 @@ $db = new App\Database('bloggo','bloggoUser','Afturgurgluk77');
 ob_start();
 if($p === 'home') {
     require '../pages/home.php';
-} elseif ($p == 'single'){
+} elseif ($p == 'article'){
     require '../pages/single.php';
 } elseif ($p == 'register') {
     require '../pages/register.php';
-}
+} 
 
 $content = ob_get_clean();
 
