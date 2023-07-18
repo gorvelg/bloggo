@@ -3,10 +3,9 @@
     foreach($db->query('SELECT * FROM articles', 'App\Table\Article') as $post): 
     ?>
 
-            <h2><a href="<?php $post->getUrl() ?>"><?= $post->article_titre; ?></a></h2>
+            <h2><a href="<?php $post->url ?>"><?= $post->article_titre; ?></a></h2>
 
-            <p><?= $post->getExtrait(); ?></p>
+            <p><?= $post->extrait; ?></p>
 
-            <?php var_dump($post); ?>
     <?php endforeach ?>
 
