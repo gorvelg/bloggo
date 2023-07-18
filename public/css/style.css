@@ -1,0 +1,36 @@
+/* Reset CSS */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* navbar */
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    height: 80px;
+    padding: 0 20px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
